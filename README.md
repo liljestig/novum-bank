@@ -2,35 +2,20 @@
 Developed using Visual Studio Code for Windows, learning about creating a simple online banking web application based on the MERN stack.
 ## How to install
 Clone the repository and change directory to the backend root directory, then execute the following command to install the dependencies:
-
 npm install
-
-Create a textfile named .env in the same directory and add the following lines:
-
-PORT=<port>
-
-MONGO_URI=<MongoDB connection string>
-
-SECRET=<JWT signing secret>
-
+Create a textfile named .env in the same directory and provide the following information:
+PORT
+MONGO_URI
+SECRET
 Start the backend server by executing the following command:
-
 npm start
-
 Change to the frontend root directory, then execute the following command to install the dependencies:
-
 npm install
-
-Create a textfile named .env in the same directory and add the following lines:
-
-REACT_APP_BACKEND_HOST=<backend-hostname>
-
-REACT_APP_BACKEND_PORT=<backend-port>
-
+Create a textfile named .env in the same directory and provide the following information:
+REACT_APP_BACKEND_HOST
+REACT_APP_BACKEND_PORT
 Start the frontend server by executing the following command:
-
 npm start
-
 ## Usage
 Web browse to http://localhost:3000/ in a web browser of choice and enjoy.
 ## Roadmap
